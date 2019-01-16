@@ -30,7 +30,7 @@ public class DaoImpl implements Dao {
         if(nearestCab != null)
             nearestCab.setTrip(customer.getTrip());
 
-        Output.printListOfCabs(getCabList());
+        //Output.printListOfCabs(getCabList());
         return null;
     }
 
